@@ -1,0 +1,274 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    max-width: 1440px;
+    margin:auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #9FABB2;
+}
+
+header{
+    background-image: url(images/bg-header-desktop.png);
+    text-align: center;
+    padding: 6em 0;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+.topconn{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+main .first{
+    text-align: center;
+    margin-top: -40px;
+    padding-bottom: 4em;
+}
+.para h2{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+.para p{
+    font-size: 1.4rem;
+    margin: 1em auto 2em;
+    line-height: 1.4em;
+}
+.db{
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.one{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow:0px 3px hsla(171, 64%, 33%, 0.789)
+}
+.two{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 3px hsla(233, 66%, 60%, 0.462);
+}
+.secondsec{
+    padding: 3em 0;
+}
+.secondsec>h3{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.secondsec>p{
+    margin: 1.2em auto 5em;
+    line-height: 1.6em;
+    text-align: center;
+}
+.mid{
+    display: flex;
+}
+.midleft img{
+    width: 100%;
+    margin-left: -2rem;
+}
+h1,h2,h3,h4,h5,h6{
+    color:#000000;
+}
+.bot{
+    margin-left: 17%;
+    height: 90%;
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.botf h5{
+    font-size: 1.5rem;
+}
+.botf p{
+    line-height: 1.8em;
+    margin-top: .5em;
+}
+.thirdsec{
+    text-align: center;
+    padding: 3em 0;
+}
+.thirdsec h3{
+    font-size: 2.2rem;
+}
+.thirdsec p{
+    margin: 1.2em auto 5em;
+    line-height: 1.6em;
+}
+
+.downbot{
+    text-align: center;
+    padding: 1em 0 3em;
+}
+.downbot h3{
+    font-size: 2.2rem;
+}
+.downbot >p{
+    margin: 1.2em auto 3.8em;
+}
+.downbot .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.downbot h5{
+    font-size: 1.5rem;
+    margin: 1.5em 0 .5em;
+}
+ .downbot p{
+    line-height: 1.7em;
+}
+
+.blogos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 0;
+}
+.blogos .brand img{
+    width: 90%;
+    margin: auto;
+}
+
+.diosan .secondconn{
+    padding: 3em 0 9em;
+    max-width : 750px;
+  
+}
+.para h3{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.para p{
+    margin: 1em auto 2em;
+    line-height: 1.4em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+footer{
+    background-color: #F5F6F8;
+    padding: 2.7em 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 60px;
+}
+.footm{
+    flex:1;
+    display: flex;
+}
+.fmenu{
+    width: 25%;
+}
+.fmenu a{
+    display: block;
+    line-height: 2em;
+    text-decoration: none;
+    color: #000;
+}
+
+.icons a{
+    display: block;
+    float: right;
+    width:33.33%;
+    text-align: right;
+}
+.fb:hover{
+    color: hsl(171, 66%, 44%);
+}
+.fmenu a:hover{
+    color:hsl(171, 66%, 44%);
+}
+.download{
+    margin-bottom: 1rem ;
+    text-align: center;
+}
+.flogo{
+    margin-right: 1rem;
+    height: 100px;
+    width: 100px;
+}
+@media (max-width:720px){
+     .one{
+        margin-bottom: 1rem;
+     }
+     .diffdev{
+        width: 100%;
+     }
+     .mid{
+        flex-direction: column;
+     }
+     .midleft img{
+        margin-left: 0rem;
+     }
+     .midright{
+        text-align: center;
+        margin-top: 3rem;
+        margin-left: 2rem;
+     }
+     .downbot .container{
+        flex-direction: column;
+     }
+     .botf{
+        margin-top: 2rem;
+     }
+     .blogos{
+        flex-direction: column;
+        padding: 2em 0;
+   
+     }
+     .secondsec{
+        padding: 0em;
+     }
+     .secondsec > p {
+        margin: 1.2em 1em 5em;
+     }
+     .thirdsec p {
+        margin: 1.2em 1em 5em;
+     }
+     .downbot{
+        padding: 0em;
+     }
+     .logo{
+        margin-top: 3rem;
+     }
+     footer .container{
+        flex-direction: column;
+        margin-left: 4rem;
+
+     }
+     .footm{
+        text-align: center;
+        display: block;
+     }
+     .flogo{
+        margin-right: 4rem;
+     }
+     .icons{
+      margin-right: 4rem;
+     }
+     .flogo{
+        height: 50px;
+        width: 50px;
+     }
+}
+@media(max-width:768px){
+    .blogos{
+        width: auto;
+    }
+}
